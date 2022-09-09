@@ -2,35 +2,56 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "If there is an SA1 fault at input wire A then the boolean function for parity bit is _____",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "B'⊕C",
+        "b": "A'⊕B",
+        "c": "C",
+        "d": "A⊕B"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In the case of 3-bit even even parity generator,When all the inputs are high and 'A' is stuck at __ output is __",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "0 1",
+        "b": "1 0",
+        "c": "0 0",
+        "d": "None of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How many types of parity bits are found?",
+      "answers": {
+        "a": "2",
+        "b": "4",
+        "c": "5",
+        "d": "3"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The total number of distinct multiple stuck-at faults possible in a 3-bit even parity generator are _____",
+      "answers": {
+        "a": "34",
+        "b": "36",
+        "c": "3",
+        "d": "35"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The Even parity bit is '1' for which of the following data",
+      "answers": {
+        "a": "101",
+        "b": "110",
+        "c": "1011",
+        "d": "0101"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
