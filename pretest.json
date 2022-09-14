@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How many XOR gates do we need to construct a Even parity generator?",
+      "answers": {
+        "a": "2",
+        "b": "1",
+        "c": "3",
+        "d": "4"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " What is the boolean expression for the Even parity generator?",
+      "answers": {
+        "a": "A⊕B⊕C'",
+        "b": "A⊕B+B⊕C+A⊕C",
+        "c": "A⊕B⊕C",
+        "d": "A+B+C"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "When the signal 101 is being transferred and it is received as 011,which of the following is true?",
+      "answers": {
+        "a": "Error cannot be detected",
+        "b": "Error can be detected using 3-bit odd parity generator",
+        "c": "Error can be detected using 3-bit even parity generator",
+        "d": "Both b and c are correct"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The odd parity output of decimal number 8 is _____",
+      "answers": {
+        "a": "1",
+        "b": "110",
+        "c": "1000",
+        "d": "0"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which gates are used for constructing odd parity generator?",
+      "answers": {
+        "a": "Ex-OR & NOT gates",
+        "b": "Ex-OR & AND gates",
+        "c": "Ex-OR gates",
+        "d": "NAND & NOR gates"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    }
+  ]
+}

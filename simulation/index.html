@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Simulation.css" />
+<script type="text/javascript" src="js/simulation.js"></script>
+    <title>Simulation</title>
+</head>
+<body>
+    <p id="hed">
+        <!-- Detection of SA0 and SA1 faults in 3-Bit Even Parity Generator  -->
+        Simulation
+    </p>
+    <hr>
+    <fieldset >
+        <legend id="leg">Even Parity Generator</legend>
+        <b>
+            <p id="tag" >&emsp; Fault &emsp;&emsp; Wire</p>
+        </b>
+        <p>&emsp;
+            <select name="fault" id="fault" title="fault">
+                <option value="None">None</option>
+                <option value="SA0">SA0</option>
+                <option value="SA1">SA1</option>
+            </select>
+            &emsp;
+            <select name="wire" id="wire" title="wire">
+                <option value="x">x</option>
+                <option value="y">y</option>
+                <option value="w">w</option>
+                <option value="z">z</option>
+            </select>
+        </p>
+        <p  id="x">&emsp;&emsp;x: <input type="number" value="X" id="X" placeholder="X" min="0" max="1"></p>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    
+        <img id="img" src="images/Circuit_Diagram.png" alt="Circuit_Diagram" >
+        
+        <p id="y">&ensp;y:  <input type="number" value="Y" id="Y"placeholder="Y"  min="0" max="1"></p>
+        <p id="z" >&ensp;z: <input id="Z" type="number" value="Z" placeholder="Z"  min="0" max="1" required></p> 
+        <table >
+            <tr>
+                <th colspan="3">Input</th>
+                <th rowspan="2">w</th>
+                <th rowspan="2">P</th>
+                <th rowspan="2">P'</th>
+            </tr>
+            <tr>
+                <td>x</td>
+                <td>y</td>
+                <td>z</td>
+            </tr>
+        </table>
+        <br>
+        
+        <p>&emsp;<button onclick="out();" >Submit</button></p>
+        <b>
+            <p id="textValue" >&emsp;Equation of fault detected = </p>
+        </b>
+        
+    </fieldset>
+
+<script src="../assets/js/iframeResize.js"></script></body>
+</html>
