@@ -19,21 +19,17 @@
       "difficulty": "advanced"
     },
     {
-      "question": "Which of the following is the correct Boolean expression for an even parity generator using three input variables?",
+      "question": "Parity Generator is a combinational logic circuit that generates the parity bit in the transmitter.",
       "answers": {
-        "a": "A⊕B⊕C'",
-        "b": "A⊕B+B⊕C+A⊕C",
-        "c": "A⊕B⊕C",
-        "d": "A+B+C"
+        "a": "True'",
+        "b": "False"
       },
        "explanations": {
-        "a": "",
-        "b": "",
-        "c": "An even parity generator adds a bit that makes the total number of 1's (including the parity bit) even. XORing the inputs like A ⊕ B ⊕ C does exactly that—it outputs 1 when the number of 1's in A, B, and C is odd.",
-        "d": ""
+        "a": "A parity generator creates a parity bit based on input data, ensuring even or odd parity for error detection.",
+        "b": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     },
     {
       "question": "If the signal 101 is transmitted but received as 011, which of the following statements is correct?",
