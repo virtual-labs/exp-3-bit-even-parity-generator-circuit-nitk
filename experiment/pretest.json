@@ -21,7 +21,7 @@
     {
       "question": "Parity Generator is a combinational logic circuit that generates the parity bit in the transmitter.",
       "answers": {
-        "a": "True'",
+        "a": "True",
         "b": "False"
       },
        "explanations": {
