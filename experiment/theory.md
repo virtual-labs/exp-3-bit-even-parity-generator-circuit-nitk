@@ -23,7 +23,7 @@ Parity generators are classified into two types:
 <center> Table-1: Table For Even Bit Parity Generator</center>
 
 <center>  
-    ![Truth Table](images/kmap.png) 
+   <img src="images/kmap.png" alt="K-map for the Even Bit Parity Generator " width="50%">
 </center>
 
 <center> Figure-1: K-map for the Even Bit Parity Generator </center>
@@ -33,7 +33,7 @@ Parity generators are classified into two types:
 <p>P = A(⊕)B(⊕)C</p> 
 
 <center>  
-    ![Even parity](images/parity.png)  
+    <img src="images/parity.png" alt="Circuit diagram of Even parity generator" width="50%"/>  
 </center>
 
 <center>  Figure-2: Circuit diagram of Even parity generator </center>
