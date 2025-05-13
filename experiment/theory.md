@@ -41,23 +41,22 @@ Parity generators are classified into two types:
    
 <p style="text-align:justify;"><strong>Note</strong>:  With this parity generator, the errors in the data transmission cannot be detected to a complete extent. It can only detect the error when only one of the bits changes. If two bits get changed, then the system cannot detect the error. Since the number of 1's being even or odd will remain the same.   </p>
 
-#### Stuck-at Fault  
+#### Stuck-at Fault:
 <p style="text-align:justify;">A stuck-at fault is a particular fault model used by fault simulators and automatic test pattern generation (ATPG) tools to mimic a manufacturing defect within an integrated circuit. Individual signals and pins are assumed to be stuck at Logical '1', '0' and 'X'.  </p>
 Stuck-at faults are classified into two types:  
 1. SA0 fault  
 2. SA1 fault  
 
-##### SA0 Fault
+##### SA0 Fault:
 <p style="text-align:justify;">When a signal, or gate output, is stuck at 0 value, independent of the inputs to the circuit, then the signal is said to be "stuck at 0 fault" or "SA0 fault".  </p>
 
-##### SA1 Fault   
+##### SA1 Fault:  
 <p style="text-align:justify;">When a signal, or gate output, is stuck at 1 value, independent of the inputs to the circuit, then the signal is said to be "stuck at 1 fault" or  "SA1 fault". Output for the even parity bit when there is a stuck-at fault. </p> 
 
-<strong>Example</strong>:  
-Suppose there is a stuck-at 0 fault in wire A.  
+<strong>Example:</strong> Suppose there is a stuck-at 0 fault in wire A.  
 
 <center>  
-    ![K-map](images/bit.png) 
+    < img src="images/bit.png" alt="Kmap for parity bit" >
 </center>
 
 <center> Figure-3: Kmap for parity bit</center></br>
@@ -67,7 +66,7 @@ Suppose there is a stuck-at 0 fault in wire A.
 <p>P = B⊕C</p>
 
 <center>  
-    ![truth table for epv](images/stuckat.png) 
+    <img src="images/stuckat.png" alt="Table For Even Parity Bit with Stuck-at Fault">
 </center>
 
 <center>Table-2: Table For Even Parity Bit with Stuck-at Fault</center>
