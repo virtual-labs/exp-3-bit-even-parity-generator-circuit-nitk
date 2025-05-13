@@ -17,7 +17,7 @@ Parity generators are classified into two types:
 <p>Similarly,</p>
 
 <center>  
-    <img src="images/tt.png"/> 
+    <img src="images/tt.png" alt="Table For Even Bit Parity Generator" width="50%"/> 
 </center>
 
 <center> Table-1: Table For Even Bit Parity Generator</center>
