@@ -6,7 +6,7 @@ Parity generators are classified into two types:
 1. Even Parity Generator
 2. Odd Parity Generator  
 
-#### Even Parity Generator
+#### Even Parity Generator:
 <p style="text-align:justify;">A 3-bit even parity generator takes 3 inputs and adds an extra bit to the data, which is known as the parity bit. Then the data is transferred as 4 bits and the extra bit is the parity bit. In the even parity generator, it generates the bit such that the number of 1's in the input transferred (including the parity bit) is even.  The circuit keeps track of the number of 1's in the data, if the data has the odd number of 1's, then the circuit detects an error.  </p>
 
 <p><strong>Example</strong>: Let A, B, C be the inputs and P be the parity bit.  </p>
@@ -17,7 +17,7 @@ Parity generators are classified into two types:
 <p>Similarly,</p>
 
 <center>  
-    ![Truth Table](images/tt.png) 
+    <img src="images/tt.png"/> 
 </center>
 
 <center> Table-1: Table For Even Bit Parity Generator</center>
