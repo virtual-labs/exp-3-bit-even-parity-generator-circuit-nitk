@@ -66,7 +66,7 @@ Stuck-at faults are classified into two types:
 <p>P = B⊕C</p>
 
 <center>  
-    <img src="images/stuckat.png" alt="Table For Even Parity Bit with Stuck-at Fault">
+    <img src="images/stuckat.png" alt="Table For Even Parity Bit with Stuck-at Fault" width="50%">
 </center>
 
 <center>Table-2: Table For Even Parity Bit with Stuck-at Fault</center></br>
