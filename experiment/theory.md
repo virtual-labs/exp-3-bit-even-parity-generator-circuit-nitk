@@ -20,13 +20,13 @@ Parity generators are classified into two types:
     <img src="images/tt.png" alt="Table For Even Bit Parity Generator" width="50%"/> 
 </center>
 
-<center> Table-1: Table For Even Bit Parity Generator</center></br>
+<center> Table-1: Table For Even Bit Parity Generator</center></br></br>
 
 <center>  
    <img src="images/kmap.png" alt="K-map for the Even Bit Parity Generator " >
 </center>
 
-<center> Figure-1: K-map for the Even Bit Parity Generator </center></br>
+<center> Figure-1: K-map for the Even Bit Parity Generator </center></br></br>
 
 <p>P = AB'C' + A'B'C + ABC + A'BC</p>  
 <p>P = A(B ⊙ C) + A'(B ⊕ C) </p>  
@@ -36,7 +36,7 @@ Parity generators are classified into two types:
     <img src="images/parity.png" alt="Circuit diagram of Even parity generator" >  
 </center>
 
-<center>  Figure-2: Circuit diagram of Even parity generator </center></br>
+<center>  Figure-2: Circuit diagram of Even parity generator </center></br></br>
 
    
 <p style="text-align:justify;"><strong>Note</strong>:  With this parity generator, the errors in the data transmission cannot be detected to a complete extent. It can only detect the error when only one of the bits changes. If two bits get changed, then the system cannot detect the error. Since the number of 1's being even or odd will remain the same.   </p>
@@ -56,10 +56,10 @@ Stuck-at faults are classified into two types:
 <strong>Example:</strong> Suppose there is a stuck-at 0 fault in wire A.  
 
 <center>  
-    < img src="images/bit.png" alt="Kmap for parity bit" >
+    <img src="images/bit.png" alt="Kmap for parity bit" >
 </center>
 
-<center> Figure-3: Kmap for parity bit</center></br>
+<center> Figure-3: Kmap for parity bit</center></br></br>
 
 <p>P = A'B'C + A'BC' </p> 
 <p>P = A'(B ⊕ C)     {A' is 1 since A has SA0}  </p>
@@ -69,7 +69,7 @@ Stuck-at faults are classified into two types:
     <img src="images/stuckat.png" alt="Table For Even Parity Bit with Stuck-at Fault">
 </center>
 
-<center>Table-2: Table For Even Parity Bit with Stuck-at Fault</center>
+<center>Table-2: Table For Even Parity Bit with Stuck-at Fault</center></br>
 
 
 
