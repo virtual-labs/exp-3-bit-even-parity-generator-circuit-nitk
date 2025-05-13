@@ -35,15 +35,21 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "The total number of distinct multiple stuck-at faults possible in a 3-bit even parity generator are _____",
+      "question": "Which of the following is the correct Boolean expression for an even parity generator using three input variables?",
       "answers": {
-        "a": "34",
-        "b": "36",
-        "c": "3",
-        "d": "35"
+        "a": "A⊕B⊕C'",
+        "b": "A⊕B+B⊕C+A⊕C",
+        "c": "A⊕B⊕C",
+        "d": "A+B+C"
       },
-      "correctAnswer": "d",
-      "difficulty": "advanced"
+       "explanations": {
+        "a": "",
+        "b": "",
+        "c": "An even parity generator adds a bit that makes the total number of 1's (including the parity bit) even. XORing the inputs like A ⊕ B ⊕ C does exactly that—it outputs 1 when the number of 1's in A, B, and C is odd.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     },
     {
       "question": "The Even parity bit is '1' for which of the following data",
