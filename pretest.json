@@ -1,0 +1,86 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How many XOR gates are required to construct an even parity generator for 3 input bits?",
+      "answers": {
+        "a": "2",
+        "b": "1",
+        "c": "3",
+        "d": "4"
+      },
+       "explanations": {
+        "a": "An even parity generator ensures the total number of 1's (including the parity bit) is even. For 3 inputs, XORing them as A ⊕ B ⊕ C detects odd count of 1’s, and this logic is implemented using 2 XOR gates.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Parity Generator is a combinational logic circuit that generates the parity bit in the transmitter.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+       "explanations": {
+        "a": "A parity generator creates a parity bit based on input data, ensuring even or odd parity for error detection.",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the signal 101 is transmitted but received as 011, which of the following statements is correct?",
+      "answers": {
+        "a": "Error cannot be detected",
+        "b": "Error can be detected using 3-bit odd parity generator",
+        "c": "Error can be detected using 3-bit even parity generator",
+        "d": "Both b and c are correct"
+      },
+       "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "The transmitted and received signals differ in two bits, which changes the overall parity. Both even and odd parity generators can detect this type of error since the parity bit won’t match."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the odd parity output for the decimal number 8?",
+      "answers": {
+        "a": "1",
+        "b": "110",
+        "c": "1000",
+        "d": "0"
+      },
+       "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "The binary representation of 8 is 1000, which has an even number of 1's (one 1). To make it odd, an additional 1 would be added, but since the question asks for the output itself, the parity bit is 0."
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which gates are used to construct an odd parity generator?",
+      "answers": {
+        "a": "Ex-OR & NOT gates",
+        "b": "Ex-OR & AND gates",
+        "c": "Ex-OR gates",
+        "d": "NAND & NOR gates"
+      },
+       "explanations": {
+        "a": "An odd parity generator uses XOR gates to check the parity of input bits and NOT gates to flip the parity bit when needed. XOR gates are used to detect if the number of 1's is odd, while NOT gates adjust the final parity bit.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}

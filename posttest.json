@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "If a Stuck-At-1 (SA1) fault occurs at input wire A, what will be the resulting Boolean function for the parity bit?",
+      "answers": {
+        "a": "B'⊕C",
+        "b": "A'⊕B",
+        "c": "C",
+        "d": "A⊕B"
+      },
+      "explanations": {
+        "a": "An SA1 fault at A forces A to 1, changing the original function A⊕B⊕C to 1⊕B⊕C. Since 1⊕B=B', , the resulting function becomes B'⊕C.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the case of 3-bit even even parity generator, when all the inputs are high and 'A' is stuck at ______ output at ______ .",
+      "answers": {
+        "a": "0 1",
+        "b": "1 0",
+        "c": "0 0",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "When 'A' is stuck at 0, the inputs become (0,1,1), leading to a parity output of 0 because 0⊕1⊕1 = 0. Thus, the correct answer is stuck-at 0 and output 0.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How many types of parity bits are commonly used in digital systems?",
+      "answers": {
+        "a": "4",
+        "b": "2",
+        "c": "5",
+        "d": "3"
+      },
+      "explanations": {
+        "a": "",
+        "b": "There are two main types of parity bits: even parity and odd parity, used for error detection in data transmission. These determine whether the total number of 1s in a data word is even or odd.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is the correct Boolean expression for an even parity generator using three input variables?",
+      "answers": {
+        "a": "A⊕B⊕C'",
+        "b": "A⊕B+B⊕C+A⊕C",
+        "c": "A⊕B⊕C",
+        "d": "A+B+C"
+      },
+       "explanations": {
+        "a": "",
+        "b": "",
+        "c": "An even parity generator adds a bit that makes the total number of 1's (including the parity bit) even. XORing the inputs like A ⊕ B ⊕ C does exactly that—it outputs 1 when the number of 1's in A, B, and C is odd.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "For which of the following binary data inputs is the even parity bit equal to '1'?",
+      "answers": {
+        "a": "101",
+        "b": "110",
+        "c": "1011",
+        "d": "0101"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "The data 1011 has an odd number of 1s (three), so an even parity bit of 1 is needed to make the total number of 1s even. Hence, the parity bit is 1 for this data.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
