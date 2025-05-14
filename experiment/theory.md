@@ -1,4 +1,4 @@
-### INTRODUCTION  
+### Introduction 
 
 <p style="text-align:justify;">A <strong>Parity Generator</strong> is a combinational logic circuit that generates the parity bit in the transmitter. A parity generator adds an extra bit to the signal that is being transmitted, so the errors can be recognized and rectified by the machine to some extent.  </p>
 
